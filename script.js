@@ -52,13 +52,38 @@ function mostrarInfrCurso() {
     console.log(duracaoCurso);
 }
 
-// Chamando a função
+// Chamando a função para os dados serem exibidos no cnsole
 mostrarInfrCurso();
 
 // Chamando as variáveis fora da função (Irá gerar erro)
 // console.log(autorCurso); // Erro
 // console.log(nomeCurso); // Erro
 // console.log(duracaoCurso); // Erro
+
+console.log("-----------SEPARADOR------------");
+
+// Declaração, Reatribuição e redeclaração de valores de variáveis
+
+// Declaração
+var disciplina = "Matemática"; // Declaração
+let objecto = "Armário"; // Declaração
+const vestuario = "Vestido"; // Declaração
+
+// Reatribuição
+disciplina = "Química"; // var permite reatribuição
+objecto = "Arca"; // let também permite reatribuição
+// vestuario = "Saia"; // const não permite reatribuição (de valores), porque o seu valor por definição é constante, ou seja, não pode seu alterado ou mudado.
+
+// Redeclaração
+var disciplina = "Física"; // var, permite Redeclaração. Mas isso é muito perigo porque pode causar bugs futuros no seu código. Por isso recomenda-se não o fazer.
+// let objecto = "Mesa"; // let, não permite Redeclaração porque é uma variavel de escopo de bloco.
+// const vestuario = "Meia"; // const, não permite Redeclaração porque é uma variavel de escopo de bloco.
+
+console.log(disciplina);
+console.log(objecto);
+console.log(vestuario)
+
+console.log("-----------SEPARADOR------------");
 
 
 
