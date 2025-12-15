@@ -1,4 +1,4 @@
-// 1° TÓPICO: Declaração de Variáveis e seus tipos
+// --------------------1° TÓPICO: Declaração de Variáveis e seus tipos
 // var, let, const
 
 // Var: variável de escopo global por padrão. Já não é recomendada para se usar em projectos.
@@ -85,24 +85,65 @@ console.log(vestuario)
 
 console.log("-----------SEPARADOR------------");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// 2° Tópico: Tipos de Dados (Primitivos)
+// --------------------2° Tópico: Tipos de Dados (Primitivos)
+// Em JavaScript temos os tipos de dados primitivos como:
 // string. number, boolean, null, undefined
-// Também temos os tipos de dados complexos como: array, aobject, function, NaN, infinity
+// Também temos os tipos de dados como: array, aobject, function, NaN, infinity
 
+// Tipo de dado string
+const linguagem = "Java";
+const mensagem = "Bem vido ao Sistema";
+const email = "gomes@gmail.com";
+const telefone = "987654321"
+
+console.log(linguagem);
+console.log(mensagem);
+console.log(email);
+console.log(telefone);
+
+console.log("-----------SEPARADOR------------");
+
+// Tipo de dado number
+const ano = 2024;
+const temperatura = 30.6;
+const numeroNegativo = -16.9;
+const numeroTelefone = 98765432;
+
+console.log(ano);
+console.log(temperatura);
+console.log(numeroNegativo);
+console.log(numeroTelefone);
+
+console.log("-----------SEPARADOR------------");
+
+// Tipo de dado boolean
+const estaChovendo = true;
+const temSol = false
+
+console.log(estaChovendo);
+console.log(temSol);
+
+console.log("-----------SEPARADOR------------");
+
+// outro exemplo de boolean
+const media = 2; // É Aprovado se a media for maior ou igual a 5
+const eAprovado = media >= 5
+
+console.log(eAprovado);
+
+console.log("-----------SEPARADOR------------");
+
+// Tipo de dado null
+const valorNulo = null;
+console.log(valorNulo);
+
+const selecionaGenero = null; // Quando o usuário não seleciona nenhum gênero
+console.log(selecionaGenero);
+
+console.log("-----------SEPARADOR------------");
+
+// Tipo de dado undefined
+let valorNaoDefinido;
+console.log(valorNaoDefinido);
 
 
