@@ -253,3 +253,35 @@ console.log(numero != 5); // Diferença de valor => vai ser true
 
 console.log(numero === 5); // Igualdade de valor e tipo => vai ser false. Essa comparação é mais rigorosa porque compara o valor e o tipo de dado.
 console.log(numero !== 5); // Diferença de valor ou tipo => vai ser true. Essa comparação é mais rigorosa porque compara o valor e o tipo de dado.
+
+console.log("-----------SEPARADOR------------");
+// Operadores Lógicos
+// Usados para combinar expressões booleanas. E são eles: E (AND), OU (OR), NÃO (NOT)
+
+let contador1 = true;
+let contador2 = true;
+
+let contadorOfical = contador1 && contador2; // Operador E (AND) => Vai retornar true se ambas as expressões forem true
+console.log(contadorOfical); // Vai ser true porque ambas as expressões são true
+
+let contadorAlternativo = contador1 || contador2; // Operador OU (OR) => Vai retornar true se uma das expressões for true
+console.log(contadorAlternativo); // Vai ser true porque uma das expressões é true  
+
+let contadorNegado = !contadorOfical; // Operador NÃO (NOT) => Inverte o valor booleano da expressão. Se for true, vira false. Se for false, vira true.
+console.log(contadorNegado); // Vai ser false porque o valor original era true e o operador NOT inverteu o valor
+
+console.log("-----------SEPARADOR------------");
+
+const idadeCondutor = 18;
+const podeTerCarteiraDeMotorista = true;
+// const podeConduzirCarro = idadeCondutor >= 18 && podeTerCarteiraDeMotorista; // Operador E (AND) => Vai retornar true se ambas as expressões forem true
+const podeConduzirCarro = idadeCondutor >= 18 || podeTerCarteiraDeMotorista; // Operador OU (OR) => Vai retornar true se uma das expressões for true
+console.log(podeConduzirCarro); // Vai ser true porque ambas as expressões são true
+console.log(!podeConduzirCarro); // Operador NÃO (NOT) => Vai ser false porque o valor original era true e o operador NOT inverteu o valor
+
+console.log("-----------SEPARADOR------------");
+// Operador Ternário
+// É uma forma abreviada de escrever uma estrutura condicional (if...else). Ele é composto por três partes: uma condição, um valor para true e um valor para false.
+
+
+
